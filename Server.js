@@ -88,7 +88,7 @@ const options = {
 };
 
 const corsOptions = {
-    origin: config.server?.origin || '*',
+    origin:  '*',
     methods: config.server?.cors?.methods || ['GET', 'POST'],
 };
 
