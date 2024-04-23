@@ -89,7 +89,7 @@ const options = {
 
 const corsOptions = {
     origin:  '*',
-    methods: config.server?.cors?.methods || ['GET', 'POST'],
+    methods: ['GET', 'POST']
 };
 
 const httpsServer = https.createServer(options, app);
